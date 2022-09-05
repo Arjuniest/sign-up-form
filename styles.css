@@ -1,0 +1,115 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;    
+    background-color: white;
+}
+
+.img {
+    display: flex;
+    width: 35%;
+    height: 100%;
+    margin: 1% 1% 1% 1%;
+    background: url(./assets/background_image.jpg) no-repeat center;
+    align-content: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.img-description {
+    margin-top: auto;
+    margin-bottom: 50px;
+    font-size: 150%;
+    color: white;
+    font-weight: 900;
+    text-shadow: 1px 1px #fae20c;
+
+}
+
+/* getting rid of the blue anchor tags */
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.form{
+    width: 75%;
+    margin: 0;
+    padding: 0;
+    margin-top: 1%;
+    
+}
+
+.inputs {
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 30%;
+    background-color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding-bottom: 1%;
+}
+
+.form-label {
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    padding: 4px;
+    size: 100px;
+}
+
+.account {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    border: 3.5px solid greenyellow;
+    color: black;
+    font-size: 1.2rem;
+    padding: 4px;
+}
+
+.error {
+    color: tomato;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding-bottom: 1%;
+}
+
+.form-input:focus {
+    border: 3.5px solid yellow;
+}
+
+.form-input:invalid {
+    border: 3.5px solid rgba(255, 0, 0, 0.52);
+}
+
+
+
+.form-end {
+    margin-top: 5px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.create-acc {
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    font-weight: 800;
+    background: #009900;
+    border: none;
+    box-shadow: 2px 2px 2px 2px #888888;
+    user-select: none;
+}   
+
+.create-acc:hover {
+    background: #29e42986;
+}
+

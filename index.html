@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <!-- <h1>Hello</h1> -->
+    <div class="img">
+        <div class="img-description">
+            <p class="img-info">Photo by Wil Stewart</p>
+            <a href="https://unsplash.com/@wilstewart3?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wil Stewart</a> on <a href="https://unsplash.com">Unsplash</a>
+        </div>
+    </div>
+
+    <div class="form">
+        <div class="form-info">
+            This is not a real online service! You know you need something. Sign up <em>now</em> to get started.
+            <br>
+            <br>
+            You <em>know</em> you want to.
+        </div>
+
+        <form action="">
+            <h1>Let's do this!</h1>
+            <div class="inputs">
+                <div class="first-name">
+                    <label for="First Name" class="form-label">First Name:</label>
+                    <input required type="text" class="form-input" id="first-name" placeholder="First Name">
+                </div>
+
+                <div class="last-name">
+                    <label for="Last Name" class="form-label">Last Name:</label>
+                    <input required type="text" class="form-input" id="last-name" placeholder="Last Name">
+                </div>
+
+                <div class="email">
+                    <label for="email" class="form-label">Email:</label>
+                    <input required type="email" class="form-input" id="email" placeholder="Email">
+                </div>
+
+                <div class="phone-number">
+                    <label for="Phone Number" class="form-label">Phone Number:</label>
+                    <input required type="text" class="form-input" id="phone" placeholder="Phone Number">
+                </div>
+
+                <div class="Password">
+                    <label for="Password" class="form-label">Password:</label>
+                    <input required type="text" class="form-input" id="password" placeholder="Password">
+                </div>
+                
+                <div class="Confirm Password">
+                    <label for="Confirm Password" class="form-label">Confirm Password:</label>
+                    <input required type="text" class="form-input" id="confirm-password" placeholder="Confirm Password">
+                </div>
+                
+                
+            </div>
+            
+            <div class="error"></div>
+            <div class="form-end">
+                <button class="create-acc">Create Account</button>
+        
+                <p>Already have an account? <a href="" class="log-in">Log in</a></p>
+            </div>
+        
+        </form>
+    </div>
+
+        <script src="script.js"></script>
+</body>
+</html>
